@@ -1,0 +1,508 @@
+body {
+	background-color: black !important;
+}
+
+/* IDIOMA */
+.idioma-fondo {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+.idioma {
+	position: absolute;
+	top: 40%;
+	left: 45%;
+}
+
+.idioma img {
+	width: 150px;
+}
+
+.idioma div {
+	padding-top: 20px;
+}
+
+.idioma div a,
+a.focus {
+	background-color: transparent !important;
+	border-color: #b47029 !important;
+	color: #ddac50 !important;
+	width: 100% !important;
+}
+
+.dropdown {
+	padding-top: 10px !important;
+}
+
+.dropdown button,
+button.focus {
+	background-color: transparent !important;
+	border-color: #b47029 !important;
+	color: #ddac50 !important;
+	width: 100% !important;
+}
+
+.dropdown-menu {
+	background-color: transparent !important;
+	border-color: #b47029 !important;
+}
+
+.dropdown-menu li a {
+	color: #ddac50;
+}
+
+/* INICIO */
+.imgMap {
+	width: 150px;
+}
+.amcharts-zoom-control {
+	display: none;
+} /*
+.mapaInicio {
+	width: 100%;
+}*/
+
+/* NAVBAR */
+
+/*.navbar-header button {
+	float: left;
+	background-color: aliceblue;
+}
+
+.navbar-header button span {
+	background-color: black;
+}*/
+
+.menu {
+	background-color: aliceblue;
+	width: 150px;
+	border-radius: 10px;
+	opacity: 0.9;
+}
+
+.navbar-custom {
+	background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+#navbarMovil {
+	display: none;
+}
+
+/* MAIN */
+.principal {
+	margin-top: 120px;
+	width: 100% !important;
+	height: 90vh !important;
+}
+
+div#map {
+	margin-top: 140px;
+	/*height: 75vh !important;*/
+}
+
+/* FOOTER- */
+.footer {
+	color: white;
+	background-color: black;
+}
+
+.footer a {
+	padding-left: 5px;
+	padding-right: 5px;
+	color: white !important;
+}
+.redes > a:hover {
+	color: gray !important;
+	text-decoration: none !important;
+}
+
+/* INICIO */
+.inicio div {
+	position: relative;
+	padding-bottom: 100%;
+	padding-top: 0;
+	height: 0;
+}
+.inicio div iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* NOSOTROS */
+.nosotros table {
+	text-align: center;
+	width: 80%;
+	border-collapse: separate;
+	border-spacing: 0px 30px;
+}
+
+.nostros table tr td {
+	width: 50%;
+}
+
+.nosotros-tabla-i {
+	width: 50%;
+}
+
+.nosotros-tabla-i h3 {
+	color: #ddac50;
+}
+
+.nosotros-tabla-i p {
+	width: 60%;
+	color: #92a2b9;
+	text-align: justify;
+}
+
+.nosotros-historia {
+	background-color: black;
+	width: 500px;
+	height: 500px;
+	padding-top: 20px;
+}
+
+.nosotros-historia-480 {
+	background-color: black;
+	padding: 10px 0px;
+	display: none;
+}
+/* EN EL MUNDO */
+.mundo table {
+	width: 80%;
+	border-collapse: separate;
+	border-spacing: 10px;
+	padding-top: 20px;
+}
+/* ACTIVIDADES */
+.actividades table {
+	width: 80%;
+	border-collapse: separate;
+	border-spacing: 0px 50px;
+}
+
+.actividades table tr td {
+	color: white;
+}
+
+.actividades table tr td div {
+	display: inline-block;
+}
+
+.actividades table tr td div img {
+	width: 400px;
+	height: 260px;
+}
+
+.actividades table tr td div h5 {
+	width: 150px;
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+}
+
+/* TRABAJO */
+.trabajo table {
+	border-collapse: separate;
+	border-spacing: 50px 40px;
+	margin: 50px 50px 0px 50px;
+}
+
+.trabajo table tr td img {
+	width: 200px;
+}
+
+.trabajo table tr td p {
+	color: white;
+	float: right;
+	width: 350px;
+	padding-left: 20px;
+	text-align: justify;
+}
+
+/* CONTACTO */
+.contacto table {
+	border-collapse: separate;
+	border-spacing: 30px;
+}
+
+.contacto table tr td ul {
+	width: 200px;
+	text-align: left;
+}
+
+.contacto table tr td ul li i {
+	color: white;
+	float: left;
+}
+
+.contacto table tr td ul li p {
+	color: #ddac50;
+	padding-left: 40px;
+}
+
+.contacto table tr td input,
+textarea {
+	width: 500px;
+	background-color: transparent;
+	border: 1px solid white;
+	height: 40px;
+	color: white;
+	padding: 10px;
+}
+
+/* GENERICOS */
+.encabezado > h3 {
+	color: white;
+}
+
+.encabezado > p {
+	width: 90%;
+	color: #92a2b9;
+	text-align: justify;
+	text-align-last: center;
+}
+
+.sombra {
+	box-shadow: 0px 0px 10px 10px #ddac5036;
+	background-color: black;
+}
+
+/* VENTANA MODAL */
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 99999;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 50%;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+}
+.close {
+	background: #ddac50;
+	color: #ffffff;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+	opacity: 1 !important;
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+	/* inicio */
+	.idioma {
+		top: 15%;
+		left: 45%;
+	}
+	.idioma img {
+		width: 100px;
+	}
+	/* NAVBAR */
+	.navbar-collapse {
+		background-color: rgba(23, 27, 39, .9) !important;
+		border-top: none !important;
+		border: 1px solid #b47029 !important;
+		border-radius: 5px;
+		text-align: center;
+	}
+
+	#navbarNormal {
+		display: none;
+	}
+
+	#navbarMovil {
+		display: inline-block;
+	}
+
+	a.nav-link {
+		padding-right: 10px;
+		color: #ddac50 !important;
+	}
+
+	button.navbar-toggler,
+	span.navbar-toggler-icon {
+		border-color: #ddac50 !important;
+	}
+
+	.custom-toggler .navbar-toggler-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(221,172,80, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	}
+
+	div#navbarLinks {
+		margin: 5px 16px 0 0;
+	}
+
+	/* MAIN */
+	div#map {
+		margin-top: 60px;
+		height: 60vh !important;
+	}
+	/*.navbar-custom {
+		display: none;
+			height: 60px;
+	}
+	.container-fluid {
+		width: 100%;
+	}
+	.container-fluid a img {
+		width: 50px;
+	}
+	.container-fluid ul {
+		display: inline-flex;
+		float: unset;
+		margin: 0px !important;
+		padding: 15px 0px 0px 0px ;*/
+
+	.fa-2x {
+		font-size: 1em !important;
+	}
+	/* NOSOTROS */
+	.nosotros table {
+		width: 90%;
+		border-spacing: 0px 10px !important;
+	}
+	.nosotros-tabla-i {
+		width: 100%;
+	}
+	.nosotros-tabla-i p {
+		width: 90%;
+	}
+	.nosotros-historia {
+		display: none;
+	}
+	.nosotros-historia-480 {
+		display: block;
+	}
+	/* MUNDO */
+	.mundo table {
+		width: 100%;
+		border-spacing: 0px;
+	}
+
+	.grid figure p {
+		letter-spacing: 0px !important;
+	}
+	/* ACTIVIDADES */
+	.actividades table {
+		border-spacing: 0px 15px;
+	}
+	.actividades-mini {
+		display: none !important;
+	}
+	.actividades-mini-480 {
+		display: grid !important;
+	}
+	/* TRABAJO */
+	.trabajo {
+		padding-bottom: 20px;
+	}
+	.trabajo-tabla {
+		display: none;
+	}
+	.trabajo table {
+		margin: 20px;
+		margin-bottom: 0px;
+	}
+	.trabajo table tr td p {
+		padding-left: 0px;
+		float: unset;
+		width: unset;
+	}
+	.trabajo-tabla-480 {
+		display: block !important;
+		border-spacing: 20px 30px !important;
+	}
+	/* CONTACTO */
+	.contacto table {
+		width: 90%;
+		border-spacing: 10px;
+	}
+	.contacto table tr td ul {
+		width: unset;
+		padding-left: 25%;
+	}
+	.contacto table tr td ul li p {
+		padding-left: 20px;
+	}
+	.contacto table tr td input,
+	textarea {
+		width: 100%;
+	}
+	/* GENERICOS */
+	.encabezado p {
+		width: 70%;
+	}
+	p {
+		font-size: 11px !important;
+	}
+
+	h3,
+	h2 {
+		font-size: 18px !important;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	/* IDIOMA */
+	.idioma {
+		top: 20%;
+		left: 30%;
+	}
+	.idioma img {
+		width: 150px;
+	}
+	/* INICIO */
+	.mapaInicio {
+		height: 500px;
+	}
+	/* MAIN */
+	.nav li a {
+		padding: 10px 2px !important;
+		font-size: 11px;
+	}
+	/* FOOTER */
+	/* ACTIVIDADES*/
+	.actividades table tr td div img {
+		width: 300px;
+		height: 190px;
+	}
+}
